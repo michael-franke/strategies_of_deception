@@ -310,7 +310,7 @@ compare_groups(
   lower = list(tvj_semprag_type = "semantic", coplayer_type = "strategic", condition = "some")
 )
 
-# SOME > AD HOC ? -> yes
+# SOME > AD HOC ? -> no
 compare_groups(
   model_binomial,
   higher = list(tvj_semprag_type = "semantic", coplayer_type = "strategic", condition = "some"),
