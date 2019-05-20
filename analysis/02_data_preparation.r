@@ -1,4 +1,4 @@
-d = read_csv("../../data/06_sentence_select_with_training/data_raw_final.csv")
+d = read_csv("../data/data_raw.csv")
 
 # check comments
 d$comments %>% unique
